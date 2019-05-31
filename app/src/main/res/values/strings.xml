@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Собачий калл</string>
+    <string name="action_settings">Настройки</string>
+    <string name="formare_list_of_directory">Справочники</string>
+    <string name="formare_list_of_documents">Документы</string>
+    <string name="formare_list_of_reports">Отчеты</string>
+    <string name="formare_statement_of_nomeclature_rests">Ведомость по товарам на складах</string>
+    <string name="frominputparams_begdate"/>
+    <string name="text_databasename_settingsform">Наименование базы данных:</string>
+    <string name="text_prefthis_settingsform">Префикс базы:</string>
+    <string name="text_prefcor_settingsform">Префикс базы-корреспондента:</string>
+    <string name="text_changesettings_settingsform">Изменить настройки</string>
+    <string name="action_refresh">Обновить из 1С</string>
+    <string name="mainform_changeelement">Выберите тип объекта</string>
+    <string name="menudirectoies_listofnomenclatures">Номенклатура</string>
+    <string name="menudirectoies_listofunits">Единицы измерения</string>
+    <string name="createnewelement">Создать...</string>
+    <string name="activity_main">Выберите элемент</string>
+    <string name="activity_listofunits">Единицы измерения</string>
+    <string name="formelementofunit_idrref">_IDRRef:</string>
+    <string name="formelementofunit_code">Код:</string>
+    <string name="formelementofunit_lname">Наименование:</string>
+    <string name="formelementofunit_lfullname">Полное наименование:</string>
+    <string name="formelementofunit_lid">_id:</string>
+    <string name="button_save">Сохранить</string>
+</resources>

@@ -1,0 +1,4 @@
+[NameDatabase]=AndroidDatabase.db
+[NameHost]=MB
+[NameCorHost]=00
+;

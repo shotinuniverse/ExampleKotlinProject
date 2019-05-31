@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".User_interface.ElementsFormsDirectories.UserInterface_FormElementOfUnit"
+        android:orientation="horizontal">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <!--<android.support.design.widget.AppBarLayout-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:theme="@style/AppTheme">-->
+
+            <!--<android.support.v7.widget.Toolbar-->
+                    <!--android:id="@+id/toolbar"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="?attr/actionBarSize"-->
+                    <!--android:background="?attr/colorPrimary"-->
+                    <!--app:popupTheme="@style/AppTheme.AppBarOverlay"/>-->
+
+        <!--</android.support.design.widget.AppBarLayout>-->
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_marginBottom="5dp" android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp">
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/formelementofunit_lid"
+                        android:layout_width="157dp"
+                        android:layout_height="wrap_content" android:id="@+id/formelementofunit_lid"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/id"
+                        android:inputType="text"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/formelementofunit_idrref"
+                        android:layout_width="157dp"
+                        android:layout_height="wrap_content" android:id="@+id/formelementofunit_lidrref"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/formelementofunit_idrref"
+                        android:inputType="text"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/formelementofunit_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/formelementofunit_lcode"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:ems="10"
+                        android:id="@+id/formelementofunit_code"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/formelementofunit_lname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/formelementofunit_lname"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:ems="10"
+                        android:id="@+id/formelementofunit_name"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/formelementofunit_lfullname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/formelementofunit_lfullname"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:ems="10"
+                        android:id="@+id/formelementofunit_fullname"/>
+            </TableRow>
+            <TableRow android:layout_width="279dp" android:layout_height="wrap_content">
+                <TextView
+                        android:text="TextView"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content" android:id="@+id/textView5"
+                        android:visibility="invisible"/>
+                <Button
+                        android:text="@string/button_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/button"
+                        android:onClick="addNomenclaturesUnit" tools:text="Изменить настройки"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
