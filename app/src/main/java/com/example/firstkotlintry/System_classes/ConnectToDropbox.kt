@@ -9,7 +9,7 @@ import com.example.firstkotlintry.System_classes.Global.GlobalVariables
 
 class ConnectToDropbox : AsyncTask<String, Void, FullAccount>() {
     companion object {
-        private val ACCESS_TOKEN = "sVAYu9CmrfAAAAAAAAAAO2G6RNfKWZgAHU9JviPLWL1rbqC7X8c0b01GphWOslKs"
+        private val ACCESS_TOKEN = "***"
     }
 
     @Throws(DbxException::class)
